@@ -13,7 +13,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
 
 - [💻 Getting Started](#getting-started)
 
@@ -68,10 +67,8 @@
 ## 👥 Authors <a name="authors"></a>
 
 #Mohamed Gamil Eldimardash
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
-
 - GitHub: [@githubhandle](https://github.com/MMGGYY66)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
 
