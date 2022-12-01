@@ -109,7 +109,7 @@ a {
   text-decoration: none;
 }
 
-li>* {
+li > * {
   color: white;
   font-size: 24px;
 }
