@@ -1,9 +1,117 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin         : 0;
+  padding        : 0;
+  list-style     : none;
+  text-decoration: none;
+  color          : white;
 }
 
 body {
   background-color: rgba(41, 29, 46, 0.595);
-  color: rgb(200, 171, 171);
+  color           : rgb(255, 255, 255);
+  width           : 100vh;
+}
+
+.header {
+  width     : 100vh;
+  height    : 72px;
+  left      : 0px;
+  top       : 0px;
+  background: #3E3C3C;
+}
+
+.outer-items {
+  width          : 100%;
+  height         : inherit;
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  align-content  : center;
+}
+
+.item {
+  order          : 9999;
+  justify-content: space-between;
+  flex           : 1 1 50%;
+}
+
+.item1 a {
+  justify-content: 12;
+}
+
+.container {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  align-content  : center;
+}
+
+.info {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  padding       : 192px 0px;
+  gap           : 24px;
+
+  position: absolute;
+  width   : 566px;
+  height  : 739px;
+  left    : 143px;
+  top     : 72px;
+}
+
+.column-social {
+  display        : flex;
+  flex-direction : column;
+  align-items    : flex-start;
+    align-content : center;
+  justify-content: flex-start;
+}
+
+
+
+.headline {
+  width          : 1440px;
+  height         : 870px;
+  left           : 0px;
+  top            : 72px;
+  display        : flex;
+  flex-direction : row;
+  align-content  : center;
+  justify-content: center;
+  background     : #1C1A19;
+}
+
+
+.info {
+  display        : flex;
+  flex-direction : column;
+  align-content  : center;
+    align-items : center;
+  /* justify-content: space-between; */
+}
+
+h1 {
+  width : 566px;
+  height: 160px;
+
+  font-family: 'Crete Round';
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 72px;
+  line-height: 82px;
+  color      : #F55800;
+}
+
+
+
+.container-image {
+  width: 55%;
+  height: 880px;
+  position: absolute;
+  right   : 0%;
+  top     : 10%;
+  bottom  : 0.1%;
+  float   : right;
+  z-index : 11111;
 }
