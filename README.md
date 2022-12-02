@@ -1,15 +1,19 @@
 # My Portfolio Website
 
-
-- About the Project
-  - Built With
-- Getting Started
-- Authors
-- Future Features
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+- [💻 Getting Started](#getting-started)
+- [Setup](#setup)
+- [Run tests](#run-tests)
+- [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -33,34 +37,17 @@
   - html and css.
 
 ## 💻 Getting Started <a name="getting-started"></a>
-### General requirements
-  - I make sure that there are no linter errors:
-  - Linter should be set up correctly for this repository.
-  - Linter result should be green.
-  - There should be no custom changes to linter config.
-  - I make sure that I used correct GitHub Flow:
-    - README file should be descriptive.
-    - Commit messages should be meaningful.
-    - Pull Request should have a descriptive title explaining what changes are inside.
-    - Pull Request should have a short summary describing introduced changes in more detail.
-    - I make sure that I documented my work in a professional way:
-    - Branch name should describe a feature or action (e.g. 'created_sidebar' or 'added_comments_section').
-    - Pull Request is made from 'feature branch' into the main branch.
+Clone the repository to get start with project, then make sure to install dependencies in the linters file located in the [linter]
 
-### HTML/CSS requirements
-  - Follow best practices for HTML & CSS.
+(https://github.com/Bateyjosue/linters-html-css/blob/main/.github/workflows/linters.yml) file
 
+### Run tests
+After pushing the changes on github go in code tab click on Merge pull request and let github action proess and check for changes.
 
-### Project requirements
-  - For this project, I should use the HTML&CSS linter
-  - The 2 sections I need to build for this project are:
-    - the toolbar (or header):
-      - Toolbar
-    - the headline section (right after the header):
-    - In order to lay out the elements on the page I should use Flexbox in all 2 sections.
-    - I don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
-    - I must stick to the design as much as possible (e.g. font, colors, images, text, margins) using the template 2 in Figma.
-    - Implement the button interactions (enable, hover, etc.).
+### Deployment
+Check for the tests when you generate a pull request and fix the errors if any.
+For stylelint error  run:<code>sudo npx stylelint "**/*.{css,scss}" --fix</code> and it will the fix style issues automatically.
+
 
 <!-- AUTHORS -->
 
@@ -72,3 +59,18 @@
 - GitHub: [@githubhandle](https://github.com/MMGGYY66)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
