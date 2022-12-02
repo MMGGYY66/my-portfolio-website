@@ -48,7 +48,6 @@ After pushing the changes on github go in code tab click on Merge pull request a
 Check for the tests when you generate a pull request and fix the errors if any.
 For stylelint error  run:<code>sudo npx stylelint "**/*.{css,scss}" --fix</code> and it will the fix style issues automatically.
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
