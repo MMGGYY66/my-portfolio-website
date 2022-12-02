@@ -127,7 +127,7 @@ div p {
   margin-bottom: 70px;
 }
 
-.all-projects>* {
+.all-projects > * {
   grid-column: 2;
   display: flex;
   flex-direction: column;
@@ -263,7 +263,7 @@ div p {
   padding-left: 0;
 }
 
-.programming-languages>* {
+.programming-languages > * {
   font-style: normal;
   font-weight: 500;
   background: rgba(202, 194, 194, 0.24);
