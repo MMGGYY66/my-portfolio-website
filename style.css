@@ -179,12 +179,12 @@ div p {
 }
 
 #programming-languages {
-  display: flex;
+  /* display: flex; */
   padding: 0;
   list-style: none;
 
 /*  adding some margin-bottom to the container of list items after disabling the display flex */
-/*  margin-bottom: 20px;*/
+  margin-bottom: 20px;
 
 }
 
@@ -210,15 +210,15 @@ div p {
   color: #091e42;
 
 /*  adding floats to list items to float to the left*/
-/*    float: left;*/
+   float: left;
 
 }
 /*clearing documents from any previous floats*/
-/*
+
 .clear {
   clear: both;
 }
-*/
+
 
 .see-project {
   width: 124px;
