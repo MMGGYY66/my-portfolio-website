@@ -50,6 +50,40 @@ button img {
   height: 13px;
 }
 
+
+.flex {
+  display: flex;
+}
+
+button {
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  height: 48px;
+  border: none;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  color: #ff5800;
+  border: 2px solid #ff6b00;
+}
+
+button:active {
+  background-color: #e05304;
+  border: 2px solid #ff6b00;
+  color: #f4f1f0;
+}
+
+button:disabled {
+  background-color: #f4f1f0;
+}
+
 /* headline section */
 main {
   bottom: 0;
@@ -348,7 +382,7 @@ div p {
   margin-top: 250px;
 }
 
-.lists ul {
+.lists ul, footer ul {
   text-align: center;
   list-style: none;
   padding-left: 0;
@@ -372,4 +406,141 @@ div p {
   line-height: 43px;
   color: #fff;
   padding: 6px 0 170px 0;
+}
+
+.contact-page {
+  flex-direction: column;
+  position: absolute;
+  padding: 12px 24px;
+  top: 6498px;
+}
+
+.contact-page h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form * {
+  margin: 12px 0;
+}
+
+.contact-page input {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #dbd8d7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 14px 0;
+}
+
+.contact-page textarea {
+  width: 100%;
+  border: none;
+  background-color: #fbf8f7;
+  padding: 12px;
+  height: 114px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form button {
+  justify-content: center;
+}
+
+.border-butom {
+  width: 50%;
+  border-bottom: 2px #0d151e solid;
+  border-radius: 10px;
+  margin: 12px auto;
+  align-self: center;
+}
+
+input[name="user_fullname"] {
+  display: block;
+}
+
+input[name="first_name"],
+input[name="last_name"] {
+  display: none;
+}
+
+.full-name {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+footer {
+  margin: 300px 0 24px 0;
+  display: flex;
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  top: 7100px;
+}
+
+footer ul {
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+}
+
+footer li {
+  color: #505f79;
+  margin: 0 auto;
+  cursor: pointer;
+    justify-content: center;
+/* Auto layout */
+  margin: 6px;
+  display: list-item;
+  cursor: pointer;
+  align-self: center;
+
+flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+align-content: center;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+
+order: 4;
+flex-grow: 0;
+  align-self: center;
+}
+
+
+footer ul {
+  border-top: 2px solid #dfe1e6;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+align-content: center;
+justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+footer ul li a {
 }
