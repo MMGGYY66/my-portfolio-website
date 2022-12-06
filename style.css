@@ -39,22 +39,6 @@ nav {
   margin-top: auto;
 }
 
-nav button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-button img {
-  width: 20px;
-  height: 13px;
-}
-
-
-.flex {
-  display: flex;
-}
-
 button {
   background: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -66,6 +50,21 @@ button {
   color: #fff;
   height: 48px;
   border: none;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  height: 13px;
+}
+
+.flex {
+  display: flex;
 }
 
 button:hover {
@@ -142,6 +141,26 @@ div p {
   margin-left: 22px;
   margin-top: 0;
   align-self: flex-start;
+}
+
+footer li {
+  color: #505f79;
+  margin: 0 auto;
+  cursor: pointer;
+  justify-content: center;
+
+  /* Auto layout */
+  display: list-item;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  order: 4;
+  flex-grow: 0;
 }
 
 .socials li {
@@ -286,6 +305,12 @@ div p {
   line-height: 24px;
 }
 
+footer ul {
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+}
+
 .projects ul {
   margin-left: 16px;
   margin-top: 0;
@@ -384,7 +409,7 @@ div p {
   margin-top: 250px;
 }
 
-.lists ul, footer ul {
+.lists ul {
   text-align: center;
   list-style: none;
   padding-left: 0;
@@ -500,39 +525,6 @@ footer {
   top: 7100px;
 }
 
-footer ul {
-  margin: 0 auto;
-  display: flex;
-  align-self: center;
-}
-
-footer li {
-  color: #505f79;
-  margin: 0 auto;
-  cursor: pointer;
-    justify-content: center;
-/* Auto layout */
-  margin: 6px;
-  display: list-item;
-  cursor: pointer;
-  align-self: center;
-
-flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-align-content: center;
-
-border-radius: 8px;
-
-/* Inside auto layout */
-
-order: 4;
-flex-grow: 0;
-  align-self: center;
-}
-
-
 .footer-section-end {
   display: flex;
   justify-content: center;
@@ -540,21 +532,18 @@ flex-grow: 0;
   align-content: center;
   align-items: center;
   width: 100%;
-  top:7300px;
+  top: 7300px;
 }
 
 .footer-section-end ul {
   display: flex;
   list-style: none;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
-
   padding: 0 0 20px 0;
-
   border-bottom: 3px solid gray;
 }
 
 .footer-section-end ul li a {
   width: 32px;
 }
-
