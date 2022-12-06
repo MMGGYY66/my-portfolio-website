@@ -319,6 +319,8 @@ div p {
 }
 
 .about-me {
+  margin-top: 0;
+  padding-top: 0;
   height: 700px;
   background: #1c1a19;
   background-image: url(images/about.png);
@@ -408,14 +410,14 @@ div p {
   padding: 6px 0 170px 0;
 }
 
-.contact-page {
+.contact {
   flex-direction: column;
   position: absolute;
   padding: 12px 24px;
   top: 6498px;
 }
 
-.contact-page h3 {
+.contact h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -436,7 +438,7 @@ div p {
   margin: 12px 0;
 }
 
-.contact-page input {
+.contact input {
   border: none;
   width: 100%;
   border-bottom: 1px solid #dbd8d7;
@@ -448,7 +450,7 @@ div p {
   padding: 14px 0;
 }
 
-.contact-page textarea {
+.contact textarea {
   width: 100%;
   border: none;
   background-color: #fbf8f7;
@@ -531,25 +533,12 @@ flex-grow: 0;
 }
 
 
-/* footer */
-/* footer ul {
-  border-top: 2px solid #dfe1e6;
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-align-content: center;
-justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-footer ul li a {
-} */
-
 .footer-section-end {
   display: flex;
   justify-content: center;
   position: absolute;
+  align-content: center;
+  align-items: center;
   width: 100%;
   top:7300px;
 }
@@ -557,6 +546,15 @@ footer ul li a {
 .footer-section-end ul {
   display: flex;
   list-style: none;
-  padding-left: 0;
+    justify-content: center;
+  align-items: center;
 
+  padding: 0 0 20px 0;
+
+  border-bottom: 3px solid gray;
 }
+
+.footer-section-end ul li a {
+  width: 32px;
+}
+
