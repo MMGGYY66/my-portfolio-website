@@ -531,7 +531,8 @@ flex-grow: 0;
 }
 
 
-footer ul {
+/* footer */
+/* footer ul {
   border-top: 2px solid #dfe1e6;
   list-style-type: none;
   display: flex;
@@ -543,4 +544,19 @@ justify-content: center;
 }
 
 footer ul li a {
+} */
+
+.footer-section-end {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top:7300px;
+}
+
+.footer-section-end ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+
 }
