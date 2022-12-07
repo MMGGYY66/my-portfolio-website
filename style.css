@@ -5,9 +5,8 @@
 
 body,
 html {
-  position: absolute;
   margin: 0;
-  width: 375px;
+  padding: 0;
 }
 
 /* header section */
@@ -104,7 +103,6 @@ h1 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-size: 52px;
-  width: 333px;
   height: 110px;
   align-self: flex-start;
   left: 24px;
@@ -136,7 +134,6 @@ div p {
 .socials {
   list-style: none;
   display: flex;
-  width: 100%;
   padding-left: 0;
   margin-left: 22px;
   margin-top: 0;
@@ -177,7 +174,6 @@ footer li {
   background-color: #fff;
   grid-template-columns: 24px auto 24px;
   row-gap: 24px;
-  margin-bottom: 70px;
 }
 
 .all-projects > * {
@@ -187,7 +183,6 @@ footer li {
 }
 
 .heading h3 {
-  width: 327px;
   color: #1c1a19;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -198,14 +193,12 @@ footer li {
 }
 
 .heading #line {
-  width: 327px;
   margin-left: inherit;
   margin-top: 0;
   margin-bottom: 50px;
 }
 
 .main-project img {
-  width: 327px;
   height: 237px;
   top: 307px;
 }
@@ -226,7 +219,6 @@ footer li {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  width: 327px;
   margin-bottom: 30px;
   color: #091e42;
 }
@@ -274,13 +266,11 @@ footer li {
 
 .projects {
   background-image: url(images/background-img.png);
-  width: 327px;
   height: 386px;
   margin-bottom: 24px;
 }
 
 .projects h2 {
-  width: 295px;
   height: 81px;
   margin-top: 84px;
   margin-left: 16px;
@@ -293,7 +283,6 @@ footer li {
 }
 
 .projects p {
-  width: 295px;
   height: 87px;
   margin-top: 12px;
   margin-left: 16px;
@@ -306,8 +295,10 @@ footer li {
 }
 
 footer ul {
-  margin: 0 auto;
+  justify-content: center;
   display: flex;
+  align-items: center;
+  width: 100%;
   align-self: center;
 }
 
@@ -330,7 +321,6 @@ footer ul {
 
 .button {
   background: #ff6b00;
-  width: 327px;
   border: none;
   height: 50px;
   left: 0;
@@ -356,7 +346,6 @@ footer ul {
 }
 
 .about-me h2 {
-  width: 330px;
   height: 79px;
   margin-top: 120px;
   margin-left: 6px;
@@ -394,7 +383,6 @@ footer ul {
 }
 
 #second-line {
-  width: 327px;
   height: 0;
   left: 0;
   right: 0;
@@ -436,7 +424,6 @@ footer ul {
 }
 
 .contact {
-  flex-direction: column;
   position: absolute;
   padding: 12px 24px;
   top: 6498px;
@@ -456,7 +443,6 @@ footer ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .form * {
@@ -541,9 +527,4 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 0 0 20px 0;
-  border-bottom: 3px solid gray;
-}
-
-.footer-section-end ul li a {
-  width: 32px;
 }
