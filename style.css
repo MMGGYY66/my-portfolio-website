@@ -251,7 +251,7 @@ footer li {
   color: #091e42;
 }
 
-.see-project {
+.project-one {
   width: 124px;
   height: 48px;
   font-family: 'Inter', sans-serif;
@@ -319,7 +319,7 @@ footer ul {
   background: rgba(202, 194, 194, 0.24);
 }
 
-.button {
+.project-btn {
   background: #ff6b00;
   border: none;
   height: 50px;
@@ -367,7 +367,7 @@ footer ul {
   padding: 12px 16px;
 }
 
-.resume {
+.resume-btn {
   width: 161px;
   height: 48px;
   border: none;
@@ -403,7 +403,7 @@ footer ul {
   padding-left: 0;
 }
 
-.bold {
+.bold-me {
   color: white;
   font-weight: bold;
   font-size: 32px;
@@ -411,7 +411,7 @@ footer ul {
   margin-top: 35px;
 }
 
-.skills {
+.my-skills {
   display: flex;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
@@ -486,17 +486,16 @@ footer ul {
   align-self: center;
 }
 
-input[name="user_fullname"] {
+input[name="fullName"] {
   display: block;
 }
 
-input[name="first_name"],
-input[name="last_name"] {
+input[name="firstName"],
+input[name="lastName"] {
   display: none;
 }
 
-.full-name {
-  width: 100%;
+.fullName {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
