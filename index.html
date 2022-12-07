@@ -218,15 +218,15 @@
 
         <!-- start contact form section -->
         <section class="contact flex" id="contact">
-            <h3>
+            <p>
                 I'm always interested in hearing about new projects, so if you'd like
                 to chat please get in touch.
-            </h3>
+            </p>
             <form action="https://formspree.io/f/mayvdjkb" method="POST" class="form flex" id="contact-form">
-                <input type="text" name="user_fullname" placeholder="Full name" maxlength="30" />
+                <input type="text" name="user_fullname" placeholder="Full name" maxlength="30" required />
                 <div class="full-name flex">
                     <input type="text" name="first_name" placeholder="First Name" maxlength="30" />
-                    <input type="text" name="last_name" placeholder="Last Name" maxlength="30" />
+                    <input type="text" name="last_name" placeholder="Last Name" maxlength="30" required />
                 </div>
                 <input type="email" name="user_email" placeholder="Email Adress" id="contact-me-email" required />
                 <textarea name="user_message" required maxlength="500">
