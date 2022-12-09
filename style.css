@@ -360,7 +360,7 @@ footer ul {
 }
 
 .programming-languages li {
-  text-align: left;
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -554,6 +554,16 @@ footer {
     flex-direction: column;
     position: absolute;
     top: 450px;
+  }
+
+  .programming-languages li {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
   }
 
   .heading-section ul li {
