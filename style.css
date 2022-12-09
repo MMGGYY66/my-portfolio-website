@@ -79,7 +79,7 @@ h1 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 48px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -162,17 +162,24 @@ button img {
 /* headline section */
 .heading-section {
   background-color: #1c1a19;
+  padding: 100px 0 0 20px;
+
 }
+
+  .heading-details {
+    padding-right: 34px;
+  }
+
 
 .heading-wrapper {
   display: flex;
-  height: 590px;
+  height: 600px;
   flex-direction: column;
-  background-image: url(/images/bg.png);
+  background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  margin-top: 50px;
-  padding-left: 10px;
+/*  margin-top: 50px;*/
+  padding-left: 6px;
   padding-right: 10px;
 }
 
@@ -487,6 +494,8 @@ footer {
   opacity: 0;
 }
 
+/* Desktop version */
+
 @media screen and (min-width: 768px) {
   .main-container {
     width: 100%;
@@ -516,7 +525,7 @@ footer {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    width: -moz-available;
+    width: 37%;
   }
 
   .headerNav-menu {
@@ -534,6 +543,7 @@ footer {
   .heading-section {
     background-image: url(images/Illustration-header.png);
     background-repeat: no-repeat;
+    display: flex;
     background-position: right;
     flex-direction: row-reverse;
     align-items: center;
@@ -543,9 +553,17 @@ footer {
 
   .heading-section ul {
     flex-direction: column;
+position: absolute;
+    top: 450px;  
   }
 
-  .pitch {
+  .heading-section ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-details {
     width: 35vw;
     padding-left: 82px;
   }
@@ -607,7 +625,7 @@ footer {
     margin-top: 32px;
   }
 
-  .pit {
+  .project-details {
     float: right;
     width: 50%;
   }
