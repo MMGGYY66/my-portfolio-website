@@ -163,13 +163,11 @@ button img {
 .heading-section {
   background-color: #1c1a19;
   padding: 100px 0 0 20px;
-
 }
 
-  .heading-details {
-    padding-right: 34px;
-  }
-
+.heading-details {
+  padding-right: 34px;
+}
 
 .heading-wrapper {
   display: flex;
@@ -178,7 +176,8 @@ button img {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
-/*  margin-top: 50px;*/
+
+  /*  margin-top: 50px; */
   padding-left: 6px;
   padding-right: 10px;
 }
@@ -553,8 +552,8 @@ footer {
 
   .heading-section ul {
     flex-direction: column;
-position: absolute;
-    top: 450px;  
+    position: absolute;
+    top: 450px;
   }
 
   .heading-section ul li {
