@@ -556,6 +556,13 @@ footer {
     top: 450px;
   }
 
+  .animation li {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s ease-out;
+  }
+
   .programming-languages li {
     text-align: left;
     font-family: "Inter", sans-serif;
@@ -570,6 +577,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .animation li:hover {
+    background-color: #fff;
+    color: #333;
   }
 
   .heading-details {
@@ -675,5 +687,11 @@ footer {
 
   .bottom-border {
     display: none;
+  }
+
+  .button-trans:hover {
+    color: #ff5800;
+    transition-duration: 1s;
+    transition-delay: 1s;
   }
 }
