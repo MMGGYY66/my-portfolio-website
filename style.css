@@ -220,7 +220,7 @@ footer ul {
   align-items: center;
 }
 
-.heading-section > ul {
+.heading-section>ul {
   align-items: center;
 }
 
@@ -277,7 +277,7 @@ footer ul {
   line-height: 20px;
 }
 
-.recent-works > button {
+.recent-works>button {
   width: 124px;
 }
 
@@ -286,9 +286,9 @@ footer ul {
   margin-top: 24px;
 }
 
-.item > h3,
-.item > p,
-.item > ul {
+.item>h3,
+.item>p,
+.item>ul {
   color: #fff;
   margin: 12px;
 }
@@ -297,7 +297,7 @@ footer ul {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.item > button {
+.item>button {
   width: 100%;
 }
 
@@ -323,7 +323,7 @@ footer ul {
   color: #ff6b00;
 }
 
-.about-me-section > p {
+.about-me-section>p {
   color: #fff;
 }
 
@@ -618,8 +618,8 @@ footer {
     background-position: right;
   }
 
-  .about-me-section > h2,
-  .about-me-section > p {
+  .about-me-section>h2,
+  .about-me-section>p {
     width: 35vw;
   }
 
@@ -663,7 +663,7 @@ footer {
     display: none;
   }
 
-  .project-item:hover > .btn-recent-works {
+  .project-item:hover>.btn-recent-works {
     display: block;
     position: absolute;
     bottom: 0;
