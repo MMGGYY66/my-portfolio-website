@@ -249,7 +249,8 @@ footer ul {
 }
 
 .main-project-image {
-  background: url(images/ImgPlaceholder.png) no-repeat;
+  background: url(images/worksImg.png) no-repeat;
+  object-fit: cover;
   width: 327px;
   height: 237px;
   margin-top: 80px;
@@ -281,7 +282,7 @@ footer ul {
 }
 
 .item {
-  background-image: url(images/papd.png);
+  background-image: url(images/projectBg-img.png);
   margin-top: 24px;
 }
 
@@ -307,7 +308,7 @@ footer ul {
 }
 
 .about-me-section {
-  background-image: url(images/illustration-about-me-mobile.png);
+  background-image: url(images/about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -540,7 +541,7 @@ footer {
   }
 
   .heading-section {
-    background-image: url(images/Illustration-header.png);
+    background-image: url(images/header.png);
     background-repeat: no-repeat;
     display: flex;
     background-position: right;
@@ -601,7 +602,7 @@ footer {
   }
 
   .about-me-section {
-    background-image: url(images/Group.png);
+    background-image: url(images/desktopImg-aboutMe.png);
     background-position: right;
   }
 
@@ -640,7 +641,7 @@ footer {
   }
 
   .item:hover {
-    background-image: url(images/portfhover.png);
+    background-image: url(images/project-hover.png);
     position: relative;
   }
 
