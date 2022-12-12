@@ -27,16 +27,16 @@
 # creating my portfolio website, I will:
 
 -   set up a new repository and prepare it for development using best practices (e.g. linters).
--   build the first 2 sections of the mobile website using the template I chose from the figma website that is template 2:
-    -   https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278&t=SkUszrDIRPwqLW5s-0
+-   build the first 2 sections of the mobile website using the template I chose from the figma website that is 
+[figma template 2](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278&t=SkUszrDIRPwqLW5s-0)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 -   html and css.
 
 ## Deploy my website with github pages"
-link to my website:
-  https://mmggyy66.github.io/my-portfolio-website/
+[link to my portfolio website:] (https://mmggyy66.github.io/my-portfolio-website/)
   
 ## 💻 Getting Started <a name="getting-started"></a>
 
