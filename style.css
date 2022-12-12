@@ -27,7 +27,7 @@ ul {
 }
 
 p {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -42,7 +42,7 @@ a {
 
 button {
   background: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -120,7 +120,6 @@ button img {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
 }
@@ -139,7 +138,7 @@ button img {
   background-color: #67798e;
 }
 
-.headerNav-menu {
+.header-nav-menu {
   position: fixed;
   left: -100%;
   top: 70px;
@@ -150,11 +149,11 @@ button img {
   background-color: #3e3c3c;
 }
 
-.headerNav-item {
+.header-nav-item {
   margin: 16px 0;
 }
 
-.headerNav-menu.active {
+.header-nav-menu.active {
   left: 0;
   height: 100vh;
 }
@@ -173,7 +172,7 @@ button img {
   display: flex;
   height: 600px;
   flex-direction: column;
-  background-image: url(images/bg.png);
+  background-image: url("images/bg.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
 
@@ -182,8 +181,8 @@ button img {
   padding-right: 10px;
 }
 
-.header-brandName {
-  font-family: "Roboto", sans-serif;
+.header-brand-name {
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -191,7 +190,7 @@ button img {
 }
 
 .heading-section h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -200,7 +199,7 @@ button img {
 }
 
 .heading-section p {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -220,7 +219,7 @@ footer ul {
   align-items: center;
 }
 
-.heading-section>ul {
+.heading-section > ul {
   align-items: center;
 }
 
@@ -249,7 +248,7 @@ footer ul {
 }
 
 .main-project-image {
-  background: url(images/worksImg.png) no-repeat;
+  background: url("images/worksImg.png") no-repeat;
   object-fit: cover;
   width: 327px;
   height: 237px;
@@ -270,34 +269,34 @@ footer ul {
   border: 1px solid #8993a4;
   box-sizing: border-box;
   padding: 10px 12px;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
 
-.recent-works>button {
+.recent-works > button {
   width: 124px;
 }
 
 .item {
-  background-image: url(images/projectBg-img.png);
+  background-image: url("images/projectBg-img.png");
   margin-top: 24px;
 }
 
-.item>h3,
-.item>p,
-.item>ul {
+.item > h3,
+.item > p,
+.item > ul {
   color: #fff;
   margin: 12px;
 }
 
 .item li {
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgb(255 255 255 / 24%);
 }
 
-.item>button {
+.item > button {
   width: 100%;
 }
 
@@ -308,7 +307,7 @@ footer ul {
 }
 
 .about-me-section {
-  background-image: url(images/about-me-mobile.png);
+  background-image: url("images/about-me-mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -323,7 +322,7 @@ footer ul {
   color: #ff6b00;
 }
 
-.about-me-section>p {
+.about-me-section > p {
   color: #fff;
 }
 
@@ -347,7 +346,7 @@ footer ul {
 .programming-languages h4 {
   display: list-item;
   text-align: center;
-  font-family: "InaiMathi", sans-serif;
+  font-family: InaiMathi, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -362,7 +361,7 @@ footer ul {
 
 .programming-languages li {
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -370,8 +369,8 @@ footer ul {
   color: #fff;
 }
 
-.headerNav-menu.active li {
-  font-family: "Inter", sans-serif;
+.header-nav-menu.active li {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -380,7 +379,7 @@ footer ul {
   border-bottom: 2px solid #6f6c6b;
 }
 
-.headerNav-menu.active li a {
+.header-nav-menu.active li a {
   color: #fff5e1;
 }
 
@@ -404,7 +403,7 @@ h4.my-skills::marker {
 }
 
 .contact-section h3 {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -428,7 +427,7 @@ h4.my-skills::marker {
   border: none;
   width: 100%;
   border-bottom: 1px solid #dbd8d7;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -442,7 +441,7 @@ h4.my-skills::marker {
   background-color: #fbf8f7;
   padding: 12px;
   height: 114px;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -519,8 +518,8 @@ footer {
     cursor: pointer;
   }
 
-  .header-brandName {
-    font-family: "Inter", sans-serif;
+  .header-brand-name {
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -528,7 +527,7 @@ footer {
     width: 37%;
   }
 
-  .headerNav-menu {
+  .header-nav-menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -541,7 +540,7 @@ footer {
   }
 
   .heading-section {
-    background-image: url(images/header.png);
+    background-image: url("images/header.png");
     background-repeat: no-repeat;
     display: flex;
     background-position: right;
@@ -566,7 +565,7 @@ footer {
 
   .programming-languages li {
     text-align: left;
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -614,12 +613,12 @@ footer {
   }
 
   .about-me-section {
-    background-image: url(images/desktopImg-aboutMe.png);
+    background-image: url("images/desktopImg-aboutMe.png");
     background-position: right;
   }
 
-  .about-me-section>h2,
-  .about-me-section>p {
+  .about-me-section > h2,
+  .about-me-section > p {
     width: 35vw;
   }
 
@@ -653,7 +652,7 @@ footer {
   }
 
   .item:hover {
-    background-image: url(images/project-hover.png);
+    background-image: url("images/project-hover.png");
     position: relative;
   }
 
@@ -663,7 +662,7 @@ footer {
     display: none;
   }
 
-  .project-item:hover>.btn-recent-works {
+  .project-item:hover > .btn-recent-works {
     display: block;
     position: absolute;
     bottom: 0;
