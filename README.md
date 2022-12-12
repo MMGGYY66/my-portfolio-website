@@ -4,21 +4,21 @@
 
 # 📗 Table of Contents
 
-- [My Portfolio Website](#my-portfolio-website)
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[My-Portfolio-Website\] ](#-my-portfolio-website-)
-- [creating my portfolio website, I will:](#creating-my-portfolio-website-i-will)
-  - [🛠 Built With ](#-built-with-)
-  - [ Deploy my website with github pages ]
-  - [💻 Getting Started ](#-getting-started-)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-- [Mohamed Gamil Eldimardash](#mohamed-gamil-eldimardash)
-  - [🤝 Contributing](#-contributing)
-  - [Show your support](#show-your-support)
-  - [Acknowledgments](#acknowledgments)
-  - [📝 License](#-license)
+-   [My Portfolio Website](#my-portfolio-website)
+-   [📗 Table of Contents](#-table-of-contents)
+-   [📖 \[My-Portfolio-Website\] ](#-my-portfolio-website-)
+-   [creating my portfolio website, I will:](#creating-my-portfolio-website-i-will)
+    -   [🛠 Built With ](#-built-with-)
+    -   [ Deploy my website with github pages ]
+    -   [💻 Getting Started ](#-getting-started-)
+        -   [Run tests](#run-tests)
+        -   [Deployment](#deployment)
+    -   [👥 Authors ](#-authors-)
+-   [Mohamed Gamil Eldimardash](#mohamed-gamil-eldimardash)
+    -   [🤝 Contributing](#-contributing)
+    -   [Show your support](#show-your-support)
+    -   [Acknowledgments](#acknowledgments)
+    -   [📝 License](#-license)
 
 # 📖 [My-Portfolio-Website] <a name="about-project"></a>
 
@@ -27,17 +27,17 @@
 # creating my portfolio website, I will:
 
 -   set up a new repository and prepare it for development using best practices (e.g. linters).
--   build the first 2 sections of the mobile website using the template I chose from the figma website that is 
-[figma template 2](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278&t=SkUszrDIRPwqLW5s-0)
-
+-   build the first 2 sections of the mobile website using the template I chose from the figma website that is
+    [figma template 2](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278&t=SkUszrDIRPwqLW5s-0)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 -   html and css.
 
-## Deploy my website with github pages"
-[link to my portfolio website:] (https://mmggyy66.github.io/my-portfolio-website/)
-  
+## Deploy my website with github pages":
+
+[link to my portfolio website: ](https://mmggyy66.github.io/my-portfolio-website/)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 Clone the repository to get start with project, then make sure to install dependencies in the linters file located in the [linter]
