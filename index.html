@@ -45,6 +45,8 @@
             <a href="#contact" class="nav-link">Contact</a>
           </li>
           <li class="header-nav-item opa">
+
+            <!-- Giving Image text alternatives ("alt text") -->
             <a href="#contact2" class="nav-link"><img src="images/Icon-Mail.png" alt="mail icon" /></a>
           </li>
         </ul>
@@ -74,30 +76,35 @@
           <li>
             <!-- Connecting my real github profile to the anchor" -->
             <a href="https://github.com/MMGGYY66" target="_blank">
+              <!-- Giving Image text alternatives ("alt text") -->
               <img src="images/github.svg" alt="github">
             </a>
           </li>
           <li>
             <!-- Connecting my real linkedin profile to the anchor" -->
             <a href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/" target="_blank">
+              <!-- Giving Image text alternatives ("alt text") -->
               <img src="images/linkedin.svg" alt="linkedin">
             </a>
           </li>
           <li>
             <!-- Connecting my real angellist profile to the anchor" -->
             <a href="https://angel.co/profile/edit/overview" target="_blank">
+             <!-- Giving Image text alternatives ("alt text") -->
               <img src="images/angellist.svg" alt="angellist">
             </a>
           </li>
           <li>
             <!-- Connecting my real twitter profile to the anchor" -->
             <a href="https://twitter.com/MOHAMEDELDIMARd" target="_blank">
+              <!-- Giving Image text alternatives ("alt text") -->
               <img src="images/twitter.svg" alt="twitter">
             </a>
           </li>
           <li>
             <!-- Connecting my real medium profile to the anchor" -->
             <a href="https://mohamed-eldimardash.medium.com/" target="_blank">
+              <!-- Giving Image text alternatives ("alt text") -->
               <img src="images/medium.svg" alt="medium">
             </a>
           </li>
@@ -272,17 +279,23 @@
         to chat please get in touch.
       </h3>
       <form action="https://formspree.io/f/mayvdjkb" method="POST" class="form apply-flex" id="contact-form">
-
+        
+        <!-- Adding labels to all form elements for accessibility reasons and make them invisible by adding css rules display: none for the sake of Figma design" -->
+        <label for="user_fullname">Full Name</label>
         <input type="text" name="user_fullname" placeholder="Full name" maxlength="30" />
 
         <div class="full-name apply-flex">
+          <label for="first_name">First Name</label>
           <input type="text" name="first_name" placeholder="First Name" maxlength="30" />
 
+          <label for="last_name">Last Name</label>
           <input type="text" name="last_name" placeholder="Last Name" maxlength="30" />
         </div>
-
+        
+        <label for="user_email">Email</label>
         <input type="email" name="user_email" placeholder="Email Adress" id="contact-me-email" required />
 
+        <label for="user_message">Please write down any suggestions</label>
         <textarea name="user_message" required maxlength="500">
             Enter text here</textarea>
         <p id="email-error" class="error-message">
@@ -295,7 +308,9 @@
       <ul class="apply-flex">
         <li>
           <!-- Connecting all my real socials to the anchor as done in the headline section" -->
-          <a href="https://github.com/MMGGYY66" target="_blank"><img src="images/mouse-black.png" alt="git-icon" /></a>
+          <a href="https://github.com/MMGGYY66" target="_blank">
+          <!-- Giving all Images text alternatives ("alt text") as done in the headline section -->
+            <img src="images/mouse-black.png" alt="git-icon" /></a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/" target="_blank"><img

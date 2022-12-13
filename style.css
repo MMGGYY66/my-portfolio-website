@@ -423,6 +423,11 @@ h4.my-skills::marker {
   margin: 12px 0;
 }
 
+/* add display: none to all form labels */
+.form label {
+  display: none;
+}
+
 .contact-section input {
   border: none;
   width: 100%;
