@@ -13,6 +13,7 @@
     -   [💻 Getting Started ](#-getting-started-)
         -   [Run tests](#run-tests)
         -   [Deployment](#deployment)
+        -   [Loom-video-link]
     -   [👥 Authors ](#-authors-)
 -   [Mohamed Gamil Eldimardash](#mohamed-gamil-eldimardash)
     -   [🤝 Contributing](#-contributing)
@@ -37,6 +38,9 @@
 ## Deploy my website with github pages":
 
 [link to my portfolio website: ](https://mmggyy66.github.io/my-portfolio-website/)
+
+## Loom video link
+[Loom walking through for my portfolio](https://www.loom.com/share/f877b654f7a641c3a10f343d8a116ddd)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
