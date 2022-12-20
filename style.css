@@ -369,6 +369,21 @@ footer ul {
   color: #fff;
 }
 
+.modal-menu-links li {
+  margin-bottom: 20px;
+  font-family: Inter, cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
 .header-nav-menu.active li {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -709,22 +724,23 @@ footer {
   height: 100vh;
   flex-direction: column;
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  left: 0;
+  right: 0;
   bottom: 57px;
 
   /* Theme 3 / Neutral 2 */
 
-  background: #3C3A39;
+  background: #3c3a39;
   mix-blend-mode: normal;
+
   /* Base/ Soft */
 
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  top:0;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  top: 0;
 }
 
-.modal-header{
-  color: #FFF;
+.modal-header {
+  color: #fff;
   display: flex;
   align-self: center;
   justify-content: flex-end;
@@ -732,21 +748,6 @@ footer {
   margin: 2% 5% 0 0;
 }
 
-.modal-menu-links{
+.modal-menu-links {
   padding: 0 24px;
-}
-
-.modal-menu-links li {
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  /* or 138% */
-
-  display: flex;
-  align-items: center;
-  color: #FFF5E1;
 }
