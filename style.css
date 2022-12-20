@@ -700,3 +700,53 @@ footer {
     transition-delay: 1s;
   }
 }
+
+/* MODAL MENU MOBILE */
+
+#modal-menu {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 57px;
+
+  /* Theme 3 / Neutral 2 */
+
+  background: #3C3A39;
+  mix-blend-mode: normal;
+  /* Base/ Soft */
+
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  top:0;
+}
+
+.modal-header{
+  color: #FFF;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  font-size: 42px;
+  margin: 2% 5% 0 0;
+}
+
+.modal-menu-links{
+  padding: 0 24px;
+}
+
+.modal-menu-links li {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
+
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+}
