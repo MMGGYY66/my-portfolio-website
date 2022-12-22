@@ -1,361 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- modifying the title to be different from other pages on the website, and adequately distinguishes the page from other web pages. -->
+		<title>Mohamed Eldimardash's Portfolio Website</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- modifying the title to be different from other pages on the website, and adequately distinguishes the page from other web pages. -->
-  <title>Mohamed Eldimardash's Portfolio Website</title>
+		<link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="style.css">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto:wght@700&display=swap"
-    rel="stylesheet" />
-</head>
+	<body>
+		<!-- start main container -->
+		<!-- Adding tapindex="0" attribute to the whole container -->
+		<main class="main-container" tabindex="0">
+			<!-- start header section -->
+			<!-- Adding tapindex="0" attribute and title to the header -->
+			<header role="document" tabindex="0" title="My portfolio">
+				<nav class="header-navbar" tabindex="0">
+					<!-- Connecting my brand name to the headline section by giving an id="home" to it and connecting to my name in the nav-menu" -->
+					<a href="#home" class="header-brand-name" tabindex="0"
+						>Mohamed Eldimardash</a
+					>
 
-<body>
-  <!-- start main container -->
-  <!-- Adding tapindex="0" attribute to the whole container -->
-  <main class="main-container" tabindex="0">
+					<ul class="header-nav-menu" tabindex="0">
+						<li class="header-nav-item">
+							<a href="#portfolio" class="nav-link">Portfolio</a>
+						</li>
 
-    <!-- start header section -->
-    <!-- Adding tapindex="0" attribute and title to the header -->
-    <header role="document" tabindex="0" title="My portfolio">
-      <nav class="header-navbar" tabindex="0">
+						<li class="header-nav-item">
+							<a href="#about" class="nav-link">About</a>
+						</li>
 
-        <!-- Connecting my brand name to the headline section by giving an id="home" to it and connecting to my name in the nav-menu" -->
-        <a href="#home" class="header-brand-name" tabindex="0">Mohamed Eldimardash</a>
+						<li class="header-nav-item">
+							<a href="#contact" class="nav-link">Contact</a>
+						</li>
+						<li class="header-nav-item opa">
+							<a href="#contact2" class="nav-link"
+								><img
+									src="images/Icon-Mail.png"
+									alt="mail icon"
+							/></a>
+						</li>
+					</ul>
+					<div class="hamburger-btn">
+						<span class="burger-bar"></span>
+						<span class="burger-bar"></span>
+						<span class="burger-bar"></span>
+					</div>
+				</nav>
+			</header>
 
-        <ul class="header-nav-menu" tabindex="0">
-          <li class="header-nav-item">
+			<!-- start headline section -->
+			<section class="heading-section apply-flex" id="home" tabindex="0">
+				<div class="heading-wrapper">
+					<div class="heading-details">
+						<h1 class="">
+							Hey There. <br />
+							I'm Mohamed
+						</h1>
+						<h3>I’am a Software Developer</h3>
+						<p>
+							I can help you build a product , feature or website
+							Look through some of my work and experience! If you
+							like what you see and have a project you need coded,
+							don’t hestiate to contact me.
+						</p>
+					</div>
 
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
+					<!-- start social media links -->
+					<ul class="apply-flex">
+						<li>
+							<!-- Connecting my real github profile to the anchor" -->
+							<a
+								href="https://github.com/MMGGYY66"
+								target="_blank"
+							>
+								<!-- Giving Image text alternatives ("alt text") -->
+								<img src="images/github.svg" alt="github" />
+							</a>
+						</li>
+						<li>
+							<!-- Connecting my real linkedin profile to the anchor" -->
+							<a
+								href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/"
+								target="_blank"
+							>
+								<!-- Giving Image text alternatives ("alt text") -->
+								<img src="images/linkedin.svg" alt="linkedin" />
+							</a>
+						</li>
+						<li>
+							<!-- Connecting my real angellist profile to the anchor" -->
+							<a
+								href="https://angel.co/profile/edit/overview"
+								target="_blank"
+							>
+								<!-- Giving Image text alternatives ("alt text") -->
+								<img
+									src="images/angellist.svg"
+									alt="angellist"
+								/>
+							</a>
+						</li>
+						<li>
+							<!-- Connecting my real twitter profile to the anchor" -->
+							<a
+								href="https://twitter.com/MOHAMEDELDIMARd"
+								target="_blank"
+							>
+								<!-- Giving Image text alternatives ("alt text") -->
+								<img src="images/twitter.svg" alt="twitter" />
+							</a>
+						</li>
+						<li>
+							<!-- Connecting my real medium profile to the anchor" -->
+							<a
+								href="https://mohamed-eldimardash.medium.com/"
+								target="_blank"
+							>
+								<!-- Giving Image text alternatives ("alt text") -->
+								<img src="images/medium.svg" alt="medium" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- end headline section -->
 
-          <li class="header-nav-item">
+			<!-- start work section -->
+			<section class="recent-works" id="portfolio">
+				<div class="heading-recent-works">
+					<h2>My Recent works</h2>
+					<div class="border-recent-works">
+						<hr />
+					</div>
+				</div>
+				<div class="main">
+					<div class="main-project-image"></div>
+					<div class="project-details">
+						<h3>Multi-Post Stories</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Maxime mollitia, molestiae quas vel sint
+							commodi repudiandae consequuntur voluptatum laborum
+							numquam blanditiis harum quisquam eius sed odit
+							fugiat iusto fuga praesentium optio, eaque rerum!
+						</p>
+						<ul class="apply-flex animation">
+							<li>css</li>
+							<li>html</li>
+							<li>bootstrap</li>
+							<li>Ruby</li>
+						</ul>
+						<button type="submit" class="btn-recent-works 6">
+							Submit
+						</button>
+					</div>
+				</div>
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
+					<button type="submit" class="btn-recent-works 0">
+						See Project
+					</button>
+				</div>
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
 
-            <a href="#about" class="nav-link">About</a>
-          </li>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
+					<button type="submit" class="btn-recent-works">
+						See Project
+					</button>
+				</div>
 
-          <li class="header-nav-item">
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
 
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-          <li class="header-nav-item opa">
-            <a href="#contact2" class="nav-link"><img src="images/Icon-Mail.png" alt="mail icon" /></a>
-          </li>
-        </ul>
-        <div class="hamburger-btn">
-          <span class="burger-bar"></span>
-          <span class="burger-bar"></span>
-          <span class="burger-bar"></span>
-        </div>
-      </nav>
-    </header>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
 
-    <!-- start headline section -->
-    <section class="heading-section apply-flex" id="home" tabindex="0">
-      <div class="heading-wrapper">
-        <div class="heading-details">
-          <h1 class="">Hey There. <br> I'm Mohamed</h1>
-          <h3>I’am a Software Developer</h3>
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-        </div>
+					<button type="submit" class="btn-recent-works">
+						See Project
+					</button>
+				</div>
 
-        <!-- start social media links -->
-        <ul class="apply-flex">
-          <li>
-            <!-- Connecting my real github profile to the anchor" -->
-            <a href="https://github.com/MMGGYY66" target="_blank">
-              <!-- Giving Image text alternatives ("alt text") -->
-              <img src="images/github.svg" alt="github">
-            </a>
-          </li>
-          <li>
-            <!-- Connecting my real linkedin profile to the anchor" -->
-            <a href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/" target="_blank">
-              <!-- Giving Image text alternatives ("alt text") -->
-              <img src="images/linkedin.svg" alt="linkedin">
-            </a>
-          </li>
-          <li>
-            <!-- Connecting my real angellist profile to the anchor" -->
-            <a href="https://angel.co/profile/edit/overview" target="_blank">
-             <!-- Giving Image text alternatives ("alt text") -->
-              <img src="images/angellist.svg" alt="angellist">
-            </a>
-          </li>
-          <li>
-            <!-- Connecting my real twitter profile to the anchor" -->
-            <a href="https://twitter.com/MOHAMEDELDIMARd" target="_blank">
-              <!-- Giving Image text alternatives ("alt text") -->
-              <img src="images/twitter.svg" alt="twitter">
-            </a>
-          </li>
-          <li>
-            <!-- Connecting my real medium profile to the anchor" -->
-            <a href="https://mohamed-eldimardash.medium.com/" target="_blank">
-              <!-- Giving Image text alternatives ("alt text") -->
-              <img src="images/medium.svg" alt="medium">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section><!-- end headline section -->
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
 
-    <!-- start work section -->
-    <section class="recent-works" id="portfolio">
-      <div class="heading-recent-works">
-        <h2>My Recent works</h2>
-        <div class="border-recent-works">
-          <hr>
-        </div>
-      </div>
-      <div class="main">
-        <div class="main-project-image"></div>
-        <div class="project-details">
-          <h3>Multi-Post Stories</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-            repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-            fuga praesentium optio, eaque rerum!
-          </p>
-          <ul class="apply-flex animation">
-            <li>css</li>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-          <button type="submit" class="btn-recent-works 6">Submit</button>
-        </div>
-      </div>
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit" class="btn-recent-works 0">See Project</button>
-      </div>
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
 
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit" class="btn-recent-works">See Project</button>
-      </div>
+					<button type="submit" class="btn-recent-works">
+						See Project
+					</button>
+				</div>
 
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
 
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
 
-        <button type="submit" class="btn-recent-works">See Project</button>
-      </div>
+					<button type="submit" class="btn-recent-works">
+						See Project
+					</button>
+				</div>
 
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
+				<div class="item">
+					<h3>Profesional Art Printing Data</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Maxime mollitia, molestiae quas vel sint commodi
+						repudiandae consequuntur voluptatum laborum numquam
+						blanditiis harum quisquam eius sed odit fugiat iusto
+						fuga praesentium optio, eaque rerum!
+					</p>
 
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
+					<ul class="apply-flex">
+						<li>html</li>
+						<li>bootstrap</li>
+						<li>Ruby</li>
+					</ul>
+					<button type="submit" class="btn-recent-works">
+						See Project
+					</button>
+				</div>
+			</section>
+			<!-- end work section -->
 
-        <button type="submit" class="btn-recent-works">See Project</button>
-      </div>
+			<!-- start about me section -->
+			<section class="about-section" id="about">
+				<div class="about-me-section">
+					<h2>About me</h2>
+					<p>
+						Hello I’m a software developer! I can help you build a
+						product , feature or website Look through some of my
+						work and experience! If you like what you see and have a
+						project you need coded, don’t hestiate to contact me.
+					</p>
+					<button class="button-trans">Get My Resume</button>
 
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
+					<div class="border-about-me-section"></div>
+				</div>
 
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
+				<div class="programming-languages apply-flex">
+					<div class="language">
+						<h4 class="languages">Language</h4>
+						<ul>
+							<li>Javascript</li>
+							<li>Ruby</li>
+							<li>Html</li>
+							<li>Css</li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="frameworks">
+						<h4 class="frames">Framworks</h4>
+						<ul>
+							<li>Bootstrap</li>
+							<li>RubyonRails</li>
+							<li>RSPec</li>
+							<li>CopyBara</li>
+							<li>Selenium</li>
+						</ul>
+					</div>
+					<div class="skills">
+						<h4 class="my-skills">Skills</h4>
+						<ul>
+							<li>Codekit</li>
+							<li>Github</li>
+							<li>Codepen</li>
+							<li>Gitlab</li>
+							<li>Terminal</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-        <button type="submit" class="btn-recent-works">See Project</button>
-      </div>
+			<section class="contact-section apply-flex" id="contact">
+				<h3 id="contact2">
+					I'm always interested in hearing about new projects, so if
+					you'd like to chat please get in touch.
+				</h3>
+				<form
+					action="https://formspree.io/f/xvoyekjg"
+					method="post"
+					class="form apply-flex"
+					id="contact-form"
+				>
+					<!-- Adding labels to all form elements for accessibility reasons and make them invisible by adding css rules display: none for the sake of Figma design" -->
+					<label for="name">Full Name</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Full name"
+						maxlength="30"
+						required
+					/>
 
-      <div class="item">
-        <h3>Profesional Art Printing Data</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-          repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
-          praesentium optio, eaque rerum!</p>
+					<label for="email">Email</label>
+					<input
+						type="email"
+						name="email"
+						placeholder="Email Adress"
+						id="email"
+						required
+					/>
 
-        <ul class="apply-flex">
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button type="submit" class="btn-recent-works">See Project</button>
-      </div>
-    </section> <!-- end work section -->
+					<label for="message"
+						>Please write down any suggestions</label
+					>
+					<textarea
+						name="message"
+						id="message"
+						required
+						maxlength="500"
+					>
+            Enter text here</textarea
+					>
 
+					<button type="submit" class="btn">Get in touch</button>
+					<p id="error-msg"></p>
+				</form>
+			</section>
 
-    <!-- start about me section -->
-    <section class="about-section" id="about">
-      <div class="about-me-section">
-        <h2>About me</h2>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
-        </p>
-        <button class="button-trans">Get My Resume</button>
+			<footer>
+				<ul class="apply-flex">
+					<li>
+						<!-- Connecting all my real socials to the anchor as done in the headline section" -->
+						<a href="https://github.com/MMGGYY66" target="_blank">
+							<!-- Giving all Images text alternatives ("alt text") as done in the headline section -->
+							<img src="images/mouse-black.png" alt="git-icon"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/"
+							target="_blank"
+							><img src="images/Disabled.png" alt="linkden-icon"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://angel.co/profile/edit/overview"
+							target="_blank"
+							><img src="images/Enabled.png" alt="angelist-icon"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://twitter.com/MOHAMEDELDIMARd"
+							target="_blank"
+							><img
+								src="images/twitter-black.png"
+								alt="twitter-icon"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://mohamed-eldimardash.medium.com/"
+							target="_blank"
+							><img src="images/Mblack.png" alt="medium-icon"
+						/></a>
+					</li>
+				</ul>
+				<div class="bottom-border"></div>
+			</footer>
 
-        <div class="border-about-me-section"></div>
-      </div>
+			<!-- Mobile Menu Modal -->
+			<div id="modal-menu">
+				<div id="menu-modal-content">
+					<div class="modal-header">&times;</div>
+					<ul class="modal-menu-links" tabindex="0">
+						<li>
+							<a
+								href="#portfolio"
+								class="nav-link modal-portfolio"
+								>Portfolio</a
+							>
+						</li>
+						<hr />
+						<li>
+							<a href="#about" class="nav-link modal-about"
+								>About</a
+							>
+						</li>
+						<hr />
+						<li>
+							<a href="#contact" class="nav-link modal-contact"
+								>Contact</a
+							>
+						</li>
+						<hr />
+					</ul>
+				</div>
+			</div>
+		</main>
 
-      <div class="programming-languages apply-flex">
-        <div class="language">
-          <h4 class="languages">Language</h4>
-          <ul>
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="frameworks">
-          <h4 class="frames">Framworks</h4>
-          <ul>
-            <li>Bootstrap</li>
-            <li>RubyonRails</li>
-            <li>RSPec</li>
-            <li>CopyBara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-        <div class="skills">
-          <h4 class="my-skills">Skills</h4>
-          <ul>
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+		<script src="js/index.js"></script>
 
-    <section class="contact-section apply-flex" id="contact">
-      <h3 id="contact2">
-        I'm always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.
-      </h3>
-      <form action="https://formspree.io/f/xvoyekjg" method="post" class="form apply-flex" id="contact-form">
-        
-        <!-- Adding labels to all form elements for accessibility reasons and make them invisible by adding css rules display: none for the sake of Figma design" -->
-        <label for="name">Full Name</label>
-        <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required/>
-
-        <div class="full-name apply-flex">
-          <label for="first_name">First Name</label>
-          <input type="text" name="first_name" placeholder="First Name" maxlength="30" required/>
-
-          <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" placeholder="Last Name" maxlength="30" required/>
-        </div>
-        
-        <label for="email">Email</label>
-        <input type="email" name="email"  placeholder="Email Adress" pattern=".+@yahoo\.com"  id="email" value="default@example.com" required />
-
-        <label for="message">Please write down any suggestions</label>
-        <textarea name="message" id="message" required maxlength="500">
-            Enter text here</textarea>
-
-        <button type="submit" class="btn">Get in touch</button>
-        <p id="error-msg"></p>
-      </form>
-    </section>
-    
-    <footer>
-      <ul class="apply-flex">
-        <li>
-          <!-- Connecting all my real socials to the anchor as done in the headline section" -->
-          <a href="https://github.com/MMGGYY66" target="_blank">
-          <!-- Giving all Images text alternatives ("alt text") as done in the headline section -->
-            <img src="images/mouse-black.png" alt="git-icon" /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/" target="_blank"><img
-              src="images/Disabled.png" alt="linkden-icon" /></a>
-        </li>
-        <li>
-          <a href="https://angel.co/profile/edit/overview" target="_blank"><img src="images/Enabled.png"
-              alt="angelist-icon" /></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/MOHAMEDELDIMARd" target="_blank"><img src="images/twitter-black.png"
-              alt="twitter-icon" /></a>
-        </li>
-        <li>
-          <a href="https://mohamed-eldimardash.medium.com/" target="_blank"><img src="images/Mblack.png"
-              alt="medium-icon" /></a>
-        </li>
-      </ul>
-      <div class="bottom-border"></div>
-    </footer>
-
-    <!-- Mobile Menu Modal -->
-    <div id="modal-menu">
-      <div id="menu-modal-content">
-        <div class="modal-header">&times;</div>
-        <ul class="modal-menu-links" tabindex="0">
-          <li >
-            <a href="#portfolio" class="nav-link modal-portfolio">Portfolio</a>
-          </li>
-          <hr>
-          <li >
-            <a href="#about" class="nav-link modal-about">About</a>
-          </li>
-          <hr>
-          <li >
-            <a href="#contact" class="nav-link modal-contact">Contact</a>
-          </li>
-          <hr>
-        </ul>
-      </div>
-    </div>
-
-  </main>
-
-  <script src="js/index.js"></script>
-
-  <script src="js/formValidate.js"></script>
-
-</body >
-
-</html >
+		<script src="js/formValidate.js"></script>
+	</body>
+</html>
