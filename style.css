@@ -659,10 +659,6 @@ footer {
     text-align: start;
   }
 
-  .form .name {
-    display: none;
-  }
-
   .main-project-image {
     float: left;
     width: 50%;
