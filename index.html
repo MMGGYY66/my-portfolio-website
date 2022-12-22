@@ -275,32 +275,32 @@
         I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.
       </h3>
-      <form action="https://formspree.io/f/mayvdjkb" method="POST" class="form apply-flex" id="contact-form">
+      <form action="https://formspree.io/f/xvoyekjg" method="post" class="form apply-flex" id="contact-form">
         
         <!-- Adding labels to all form elements for accessibility reasons and make them invisible by adding css rules display: none for the sake of Figma design" -->
-        <label for="user_fullname">Full Name</label>
-        <input type="text" name="user_fullname" placeholder="Full name" maxlength="30" />
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required/>
 
         <div class="full-name apply-flex">
           <label for="first_name">First Name</label>
-          <input type="text" name="first_name" placeholder="First Name" maxlength="30" />
+          <input type="text" name="first_name" placeholder="First Name" maxlength="30" required/>
 
           <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" placeholder="Last Name" maxlength="30" />
+          <input type="text" name="last_name" placeholder="Last Name" maxlength="30" required/>
         </div>
         
-        <label for="user_email">Email</label>
-        <input type="email" name="user_email" placeholder="Email Adress" id="contact-me-email" required />
+        <label for="email">Email</label>
+        <input type="email" name="email"  placeholder="Email Adress" pattern=".+@yahoo\.com"  id="email" value="default@example.com" required />
 
-        <label for="user_message">Please write down any suggestions</label>
-        <textarea name="user_message" required maxlength="500">
+        <label for="message">Please write down any suggestions</label>
+        <textarea name="message" id="message" required maxlength="500">
             Enter text here</textarea>
-        <p id="email-error" class="error-message">
-        </p>
 
         <button type="submit" class="btn">Get in touch</button>
+        <p id="error-msg"></p>
       </form>
     </section>
+    
     <footer>
       <ul class="apply-flex">
         <li>
@@ -353,6 +353,8 @@
   </main>
 
   <script src="js/index.js"></script>
+
+  <script src="js/formValidate.js"></script>
 
 </body >
 

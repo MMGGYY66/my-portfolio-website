@@ -659,6 +659,9 @@ footer {
     text-align: start;
   }
 
+  #name {
+    display: none;
+  }
   .main-project-image {
     float: left;
     width: 50%;
