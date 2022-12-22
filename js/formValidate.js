@@ -26,3 +26,21 @@ contactForm.addEventListener('submit', (e) => {
     }, 3000);
   }
 });
+
+// ============= LOCAL STORAGE ==================
+
+//  Load data from localStorage
+const loadUserData = () => {
+  try {
+    const data = JSON.parse(localStorage.getItem('userData'));
+    userName.value = data.name;
+    email.value = data.email;
+    message.value = data.message;
+  } catch (error) {
+    const data = { name: '', email: '', message: '' };
+    localStorage.setItem('userData', JSON.stringify(data));
+  }
+};
+
+loadUserData();
+
