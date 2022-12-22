@@ -34,12 +34,8 @@ hamburger.addEventListener('click',display);
 closeBtn.addEventListener('click',hide);
 
 // Add event on the portfolio
-portfolio.addEventListener('click', () => {
-        modal.style.display='none';
-});
+portfolio.addEventListener('click', hide);
 
 about.addEventListener('click',hide);
 
-contact.addEventListener('click', () => {
-        modal.style.display='none';
-});
+contact.addEventListener('click', hide);
