@@ -44,3 +44,15 @@ const loadUserData = () => {
 
 loadUserData();
 
+const saveUserData = () => {
+  const uName = userName.value;
+  const uEmail = email.value;
+  const uMessage = message.value;
+  const data = { name: uName, email: uEmail, message: uMessage };
+  localStorage.setItem('userData', JSON.stringify(data));
+};
+
+// Add event on each field
+userName.addEventListener('input', () => saveUserData());
+email.addEventListener('input', () => saveUserData());
+message.addEventListener('input', () => saveUserData())
