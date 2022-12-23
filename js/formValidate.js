@@ -27,7 +27,7 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-// ============= LOCAL STORAGE ==================
+//  LOCAL STORAGE 
 //  Load data from localStorage
 const loadUserData = () => {
   try {
@@ -49,6 +49,6 @@ const saveUserData = () => {
   localStorage.setItem('userData', JSON.stringify(data));
 };
 // Add event on each field
-userName.addEventListener('input', () => saveUserData());
-email.addEventListener('input', () => saveUserData());
-message.addEventListener('input', () => saveUserData())
+userName.addEventListener('input', saveUserData);
+email.addEventListener('input', saveUserData);
+message.addEventListener('input', saveUserData)

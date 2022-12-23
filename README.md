@@ -61,18 +61,11 @@ For stylelint error run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
 
 ## 👥 Authors <a name="authors"></a>
 
-# Mohamed Gamil Eldimardash
 
 👤 **Mohamed Gamil Eldimardash**
 
 -   GitHub: [@githubhandle](https://github.com/MMGGYY66)
 -   LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
-
-👤 **Hans-Derly Rameau**
-
--   GitHub: [@hansderly](https://github.com/hansderly)
--   Twitter: [@\_hansderly](https://twitter.com/_hansderly)
--   LinkedIn: [ansderly-rameau](https://linkedin.com/in/ansderly-rameau/)
 
 ## 🤝 Contributing
 
