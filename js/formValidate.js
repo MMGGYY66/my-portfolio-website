@@ -26,8 +26,8 @@ contactForm.addEventListener('submit', (e) => {
     }, 3000);
   }
 });
-// ============= LOCAL STORAGE ==================
 
+// ============= LOCAL STORAGE ==================
 //  Load data from localStorage
 const loadUserData = () => {
   try {
