@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- modifying the title to be different from other pages on the website, and adequately distinguishes the page from other web pages. -->
+
   <title>Mohamed Eldimardash's Portfolio Website</title>
 
   <link rel="stylesheet" href="style.css">
@@ -16,11 +16,9 @@
 
 <body>
   <!-- start main container -->
-  <!-- Adding tapindex="0" attribute to the whole container -->
   <main class="main-container" tabindex="0">
 
     <!-- start header section -->
-    <!-- Adding tapindex="0" attribute and title to the header -->
     <header role="document" tabindex="0" title="My portfolio">
       <nav class="header-navbar" tabindex="0">
 
@@ -219,7 +217,6 @@
       </div>
     </section> <!-- end work section -->
 
-
     <!-- start about me section -->
     <section class="about-section" id="about">
       <div class="about-me-section">
@@ -269,14 +266,14 @@
       </div>
     </section>
 
+    <!-- contact section -->
     <section class="contact-section apply-flex" id="contact">
       <h3 id="contact2">
         I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.
       </h3>
       <form action="https://formspree.io/f/xvoyekjg" method="post" class="form apply-flex" id="contact-form">
-        
-        <!-- Adding labels to all form elements for accessibility reasons and make them invisible by adding css rules display: none for the sake of Figma design" -->
+
         <label for="name">Full Name</label>
         <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required/>
         
@@ -291,7 +288,6 @@
         <p id="error-msg"></p>
       </form>
     </section>
-    
     <footer>
       <ul class="apply-flex">
         <li>

@@ -27,8 +27,8 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-// ============= LOCAL STORAGE ==================
-//  Load data from localStorage
+//  LOCAL STORAGE //
+//  Load data from localStorage //
 const loadUserData = () => {
   try {
     const data = JSON.parse(localStorage.getItem('userData'));
