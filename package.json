@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "my-portfolio-website",
   "version": "1.0.0",
   "description": "<!-- TABLE OF CONTENTS -->",

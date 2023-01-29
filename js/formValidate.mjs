@@ -1,4 +1,3 @@
-//  Target the form and its children
 const contactForm = document.querySelector('#contact-form');
 const userName = document.querySelector('#name');
 const email = document.querySelector('#email');

@@ -1,4 +1,3 @@
-// Target the hamburger menu
 const modal = document.querySelector('#modal-menu')
 
 // Target the hamburger menu
@@ -39,3 +38,4 @@ portfolio.addEventListener('click', hide);
 about.addEventListener('click',hide);
 
 contact.addEventListener('click', hide);
+
