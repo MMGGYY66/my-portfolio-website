@@ -7,7 +7,7 @@ const errorMessage = document.querySelector('#error-msg');
 contactForm.addEventListener('submit', (e) => {
   //  Prevent the form submit
   e.preventDefault();
-  
+
   // Verify the email
   const emailValue = email.value;
   if (emailValue.toLowerCase() === emailValue) {
@@ -26,7 +26,7 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-//  LOCAL STORAGE 
+//  LOCAL STORAGE
 //  Load data from localStorage
 const loadUserData = () => {
   try {
@@ -50,4 +50,4 @@ const saveUserData = () => {
 // Add event on each field
 userName.addEventListener('input', saveUserData);
 email.addEventListener('input', saveUserData);
-message.addEventListener('input', saveUserData)
+message.addEventListener('input', saveUserData);
